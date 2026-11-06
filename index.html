@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Good Girl Exit | A 30-Day Protocol by Iris Adeyemi</title>
+<meta name="description" content="Thirty days, one action a day, to stop being the easiest person in the room to move. A 97-page PDF protocol for women who are done being nice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #17140f;
+    --bg-soft: #1f1b15;
+    --line: #36312a;
+    --cream: #efe6d6;
+    --sand: #c9bba3;
+    --muted: #a39682;
+    --rust: #c4623b;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--cream);
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+  .label {
+    font-family: "Jost", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .28em;
+    font-size: .75rem;
+    color: var(--muted);
+  }
+  .label.rust { color: var(--rust); }
+  a { color: var(--rust); }
+
+  /* Top bar */
+  .topbar { display: flex; justify-content: space-between; padding: 36px 0 18px; border-bottom: 1px solid var(--line); }
+
+  /* Hero */
+  .hero { display: grid; grid-template-columns: 1fr 1.15fr; gap: 56px; align-items: center; padding: 64px 0 72px; }
+  .cover { width: 100%; border-radius: 4px; box-shadow: 0 24px 60px rgba(0,0,0,.55); display: block; }
+  .rule { width: 64px; height: 2px; background: var(--rust); margin-bottom: 22px; }
+  h1 { font-weight: 900; font-size: 3rem; line-height: 1.05; margin: 0 0 14px; }
+  h1 em { font-weight: 400; font-style: italic; color: var(--sand); font-size: 1.6rem; display: block; margin-bottom: 4px; }
+  .sub { font-style: italic; color: var(--sand); font-size: 1.25rem; margin: 0 0 18px; }
+  .one-line { margin: 0 0 26px; }
+  .meta { font-family: "Jost", Arial, sans-serif; color: var(--muted); font-size: .9rem; letter-spacing: .06em; margin-bottom: 26px; }
+  .btn {
+    display: inline-block; font-family: "Jost", Arial, sans-serif; text-transform: uppercase; letter-spacing: .18em;
+    font-size: .8rem; padding: 15px 26px; background: var(--rust); color: #fff; text-decoration: none; border-radius: 2px;
+  }
+  .btn.ghost { background: transparent; border: 1px solid var(--line); color: var(--sand); }
+  .note { font-family: "Jost", Arial, sans-serif; font-size: .8rem; color: var(--muted); margin-top: 12px; }
+
+  /* Sections */
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-weight: 900; font-size: 1.9rem; line-height: 1.2; margin: 10px 0 22px; }
+  h3 { font-weight: 700; font-size: 1.15rem; margin: 26px 0 4px; }
+  p { margin: 0 0 18px; }
+  .lede { font-size: 1.35rem; font-style: italic; color: var(--sand); }
+  ul.clean { list-style: none; padding: 0; margin: 0; }
+  ul.clean li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  ul.clean li:last-child { border-bottom: 0; }
+
+  .weeks { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 28px 0; }
+  .week { background: var(--bg-soft); border: 1px solid var(--line); padding: 20px 22px; }
+  .week .label { display: block; margin-bottom: 6px; }
+  .week p { margin: 0; font-size: 1rem; }
+
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+
+  /* Pricing */
+  .prices { display: grid; grid-template-columns: 1fr; max-width: 420px; gap: 18px; margin-top: 28px; }
+  .price-card { background: var(--bg-soft); border: 1px solid var(--line); padding: 26px 22px; }
+  .price-card.featured { border-color: var(--rust); }
+  .price-card .amt { font-weight: 900; font-size: 2.4rem; line-height: 1; margin: 10px 0 12px; }
+  .price-card p { font-size: .95rem; color: var(--sand); margin: 0; }
+
+  footer { border-top: 1px solid var(--line); padding: 40px 0 64px; text-align: center; }
+  footer nav { margin-bottom: 14px; }
+  footer nav a { font-family: "Jost", Arial, sans-serif; text-transform: uppercase; letter-spacing: .18em; font-size: .75rem; margin: 0 12px; text-decoration: none; color: var(--sand); }
+
+  @media (max-width: 720px) {
+    .hero { grid-template-columns: 1fr; gap: 36px; padding: 40px 0 48px; }
+    .cover { max-width: 320px; margin: 0 auto; }
+    h1 { font-size: 2.5rem; }
+    .weeks, .cols, .prices { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <span class="label">Bold, Not Loud</span>
+    <span class="label rust">Protocol No. 1</span>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <!-- Put your cover image next to this file and name it cover.jpg -->
+    <img class="cover" src="cover.jpg" alt="Cover of The Good Girl Exit: A 30-Day Protocol for Women Who Are Done Being Nice, by Iris Adeyemi">
+    <div>
+      <div class="rule"></div>
+      <h1><em>The</em>Good Girl Exit</h1>
+      <p class="sub">A 30-Day Protocol for Women Who Are Done Being Nice</p>
+      <p class="one-line">Thirty days, one action a day, to stop being the easiest person in the room to move.</p>
+      <div class="meta">PDF &nbsp;·&nbsp; 97 pages &nbsp;·&nbsp; Instant download &nbsp;·&nbsp; By Iris Adeyemi</div>
+      <a class="btn" href="#pricing">Get it for $9</a>
+      <p class="note">Secure checkout by Lemon Squeezy.</p>
+    </div>
+  </div>
+
+  <!-- DESCRIPTION -->
+  <section id="about">
+    <div class="label rust">About the book</div>
+    <h2>Easy to schedule. Easy to talk over. Easy to leave.</h2>
+    <p class="lede">You were cast as the good girl at seven. This is thirty days of walking out: one page of thinking, one action a day, and the exact sentences for the conversations you keep avoiding.</p>
+    <p>You learned to be easy before you could read. Easy to schedule, easy to talk over, easy to leave.</p>
+    <p>That skill worked. It kept rooms calm and it kept you liked, and it still runs every time somebody's mood shifts. Nobody asks you to do it. You do it before you notice: in the meeting where you soften the sentence, in the group chat where you volunteer, at the table where you pay and say nothing.</p>
+    <p>The Good Girl Exit is thirty days of undoing that, one action per day.</p>
+
+    <div class="weeks">
+      <div class="week">
+        <span class="label rust">Week one</span>
+        <p><strong>Diagnosis.</strong> You count what the reflex costs in hours and money, and you name the three moves you make faster than thought: apologise, explain, accommodate.</p>
+      </div>
+      <div class="week">
+        <span class="label rust">Weeks two to four</span>
+        <p><strong>Practice.</strong> Voice, refusal, money, and the mirror. Each day gives you one thing to do in a real conversation, the sentence to say, and what to do when it goes badly.</p>
+      </div>
+    </div>
+
+    <p>Day 3 is &ldquo;Hold on, I'm not finished.&rdquo; Day 23 is saying your number out loud ten times before you say it to anyone with a budget. Day 27 is an account nobody else knows about.</p>
+    <p>By day 30 you have said no without a paragraph of defence, taken credit for work you did, and survived the four things people say when you stop being convenient.</p>
+  </section>
+
+  <!-- INSIDE -->
+  <section id="inside">
+    <div class="label rust">What's inside</div>
+    <h2>Thirty days, built to use on your phone.</h2>
+    <ul class="clean">
+      <li>Thirty daily pages, each with the action, the reason, and a recovery line for when it goes wrong</li>
+      <li>Sixty scripts you can read off your phone mid-conversation</li>
+      <li>A printable tracker, one line a day</li>
+      <li>Forty posters, the same ones running on the account</li>
+      <li>A source list for every claim, including the ones the internet still repeats wrong</li>
+    </ul>
+    <p class="note" style="margin-top:18px">Delivered as an instant PDF download, sized to read on a phone.</p>
+  </section>
+
+  <!-- WHO -->
+  <section id="who">
+    <div class="cols">
+      <div>
+        <div class="label rust">Who this is for</div>
+        <h2>Competent everywhere, credited nowhere.</h2>
+        <p>The one who books the dinner, covers the shortfall, and rewrites the email so nobody's feelings get hurt.</p>
+        <p>If your main pressure is a marriage or small children at home, this book is thinner than you need. It is built around the office, the friend group, family of origin, and money you are owed.</p>
+      </div>
+      <div>
+        <div class="label">Who this is not for</div>
+        <h2>Not a substitute for therapy.</h2>
+        <p>If you are in a relationship that is not safe, or you are carrying trauma, this is a different book and a different professional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJECTIONS -->
+  <section id="faq">
+    <div class="label rust">Questions you might have</div>
+    <h2>The things you're already thinking.</h2>
+    <h3>&ldquo;I'm not a people pleaser.&rdquo;</h3>
+    <p>You do not have to be. There is one test and it takes four seconds: when did you last do something kind that nobody saw?</p>
+    <h3>&ldquo;I've read the nice-girl books.&rdquo;</h3>
+    <p>Most of them tell you to heal a pattern. This one treats it as a part you were cast in at seven, then gives you thirty days of lines to say out loud.</p>
+    <h3>&ldquo;I don't have time.&rdquo;</h3>
+    <p>Each day is one page and one action. Four minutes is enough.</p>
+    <h3>&ldquo;Will people be angry?&rdquo;</h3>
+    <p>Some of them, for about a year. The book tells you which four sentences they will use and what to say back.</p>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="label rust">Pricing</div>
+    <h2>Get your copy.</h2>
+    <div class="prices">
+      <div class="price-card featured">
+        <span class="label rust">The Good Girl Exit &middot; PDF</span>
+        <div class="amt">$9</div>
+        <p>The full 97-page PDF, instant download.</p>
+      </div>
+    </div>
+    <p class="note" style="margin-top:22px">Price in USD, one-time payment, no subscription. The checkout button will appear here once my Lemon Squeezy store is live. Payments and sales tax are handled by Lemon Squeezy.</p>
+  </section>
+
+  <!-- CONTACT & POLICIES -->
+  <section id="contact">
+    <div class="label rust">Contact</div>
+    <h2>Questions about an order?</h2>
+    <p>Email <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a>. I usually reply within 2 business days.</p>
+  </section>
+
+  <section id="privacy">
+    <div class="label rust">Privacy Policy</div>
+    <h2>Your information</h2>
+    <p>I collect only the information needed to complete your purchase, such as your name and email address, which is processed by Lemon Squeezy, my payment provider. I use your email only to deliver your purchase and answer your questions. I do not sell or share your personal information with third parties, except the services needed to process payments and deliver files. To request deletion of your data, email <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a>.</p>
+  </section>
+
+  <section id="refunds">
+    <div class="label rust">Refund Policy</div>
+    <h2>If something goes wrong</h2>
+    <p>Because this is a digital product, all sales are generally final once the file is downloaded. If the file is corrupted, you were charged by mistake, or the book is not as described, email me within 7 days of purchase at <a href="mailto:[YOUR EMAIL]">[YOUR EMAIL]</a> and I will fix the issue or issue a refund.</p>
+  </section>
+
+  <section id="terms">
+    <div class="label rust">Terms</div>
+    <h2>Using the book</h2>
+    <p>The PDF and its included materials are for your personal use. Please do not copy, resell or redistribute them. The content is for information and education only and is not therapy, medical or legal advice.</p>
+  </section>
+
+  <footer>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#refunds">Refunds</a>
+      <a href="#terms">Terms</a>
+    </nav>
+    <div class="label">&copy; 2026 Iris Adeyemi &nbsp;·&nbsp; Bold, Not Loud</div>
+  </footer>
+
+</div>
+</body>
+</html>
